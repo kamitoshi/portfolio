@@ -1,0 +1,146 @@
+<div class="container">
+  <div class="row">
+    <h1 class="title"><strong>My Profile</strong></h1>
+  </div>
+  <div class="row">
+    <div class="col-5 center box">
+      <%= image_tag "profile.jpg", size:"400x400" %>
+    </div>
+    <div class="col-7">
+      <h1 class="sub-title">Toshiki kamiya's portfolio</h1>
+    </div>
+  </div>
+  <div class="row pa-t-50">
+    <div class="box wid-100">
+      <div class="title-box center">
+        <h1><strong>about</strong></h1>
+        <p>個人年表</p>
+      </div>
+      <div class="about">
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <td>2017.3</td>
+              <td>中京大学　スポーツ科学部　　卒業</td>
+            </tr>
+            <tr>
+              <td>2017.4〜</td>
+              <td>岡崎信用金庫　　入庫</td>
+            </tr>
+            <tr>
+              <td>2019.4〜</td>
+              <td>安城市役所　　入庁</td>
+            </tr>
+            <tr>
+              <td>2020.3</td>
+              <td>DMMwebcamp　　入校</td>
+            </tr>
+            <tr>
+              <td>2020.6.16</td>
+              <td>DMMwebcamp　　カリキュラム終了</td>
+            </tr>
+            <tr>
+              <td>2020.6.17〜</td>
+              <td>転職活動開始　　現在に至る</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="message-box centerx">
+          <p>現在転職に向けて絶賛活動中。</p>
+          <p>スキルはありませんが、やる気と勉強姿勢はあります。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row pa-t-50">
+    <div class="box wid-100">
+      <div class="title-box center">
+        <h1><strong>contents</strong></h1>
+        <h4>制作物</h4>
+      </div>
+      <div class="content-box">
+        <div class="row item pa-30">
+          <div class="col-5 center">
+            <%= link_to  "https://pealco.work" do %>
+              <%= image_tag "pealco.jpg", size: "400x300" %>
+              <h1>PeAlco</h1>
+            <% end %>
+          </div>
+          <div class="col-7">
+            <p>
+              自分にとっての、処女作となります。<br>
+              <br>
+              食事、特にお酒との組み合わせを投稿することに特化したSNSサイトです。<br>
+              もともとお酒が好きだったことや、コロナの影響で宅飲みが増えたことに起因して
+              作ることを決めました。<br>
+              機能に関しては、目新しいものはついていませんが一般的なSNSに必要な機能は最低限ついています。
+              初めて作ったものとしては、デザインも含めてまずまずのものができたと思っています。<br>
+              <br>
+              左の画面より、該当サイトに飛ぶことができます。
+            </p>
+          </div>
+        </div>
+        <div class="row item pa-30">
+          <div class="col-7">
+            <p>
+              製作中のサービスになります。<br>
+              <br>
+              飲食店のためのサービスを考案中です。<br>
+              詳しいことは記載できませんが、将来リリースする予定です。
+            </p>
+          </div>
+          <div class="col-5 center">
+            <%= image_tag "food_store.jpg", size: "400x300" %>
+            <h3 class="">飲食関係サービス</h3>
+            <p>※制作途中</p>
+          </div>
+        </div>
+        <div class="row item pa-30">
+          <div class="col-5 center">
+            <%= image_tag "study.jpg", size: "400x300" %>
+            <h3>教育関係サービス</h3>
+            <p>※制作途中</p>
+          </div>
+          <div class="col-7">
+            <p>
+              製作中のサービスになります。<br>
+              <br>
+              教育に関するサービスです。
+              こちらも詳しいことは記載できませんが、将来的にリリースできたらいいなと思っています。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row pa-t-50">
+    <div class="box wid-100">
+      <div class="title-box center">
+        <h1><strong>skills</strong></h1>
+      </div>
+      <div class="skill-box">
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <td>フロントエンド</td>
+              <td>HTML,CSS,JavaScript</td>
+            </tr>
+            <tr>
+              <td>バックエンド</td>
+              <td>Ruby,Python(勉強中)</td>
+            </tr>
+            <tr>
+              <td>フレームワーク</td>
+              <td>Ruby on Rails, Bootstrap, jQuery</td>
+            </tr>
+            <tr>
+              <td>その他</td>
+              <td>AWS(ec2,S3), Nginx</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
